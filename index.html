@@ -1,11 +1,172 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Test</title>
+    <meta charset="UTF-8">
+    <title>Portofolio Siswa SMA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            color: #0077ff;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            padding: 6px 0;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #4facfe;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            margin: 5px 5px 0 0;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: white;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>HOME</h1>
-    <p>Klik link di bawah:</p>
-    <a href="next.html">Ke Next</a>
+
+<header>
+    <h1>Nama Kamu</h1>
+    <p>Siswa Kelas XI IPA | Tertarik pada Teknologi & Desain</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Profil Diri</h2>
+        <p>
+            Saya adalah siswa SMA yang aktif, disiplin, dan memiliki minat besar dalam bidang teknologi dan desain.
+            Saya senang belajar hal baru serta berkontribusi dalam kegiatan sekolah.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Prestasi Akademik</h2>
+        <ul>
+            <li>🏆 Juara 2 Olimpiade Matematika Tingkat Kota</li>
+            <li>📚 5 Besar Nilai Tertinggi di Kelas</li>
+            <li>🎓 Peserta Kompetisi Sains Nasional (KSN)</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Prestasi Non-Akademik</h2>
+        <ul>
+            <li>⚽ Juara 1 Futsal Antar Sekolah</li>
+            <li>🎤 Finalis Lomba Pidato Bahasa Inggris</li>
+            <li>🎨 Juara 3 Lomba Poster Digital</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Pengalaman Organisasi</h2>
+        <ul>
+            <li><strong>OSIS</strong> – Sekretaris (2024–2025)</li>
+            <li><strong>Ekstrakurikuler IT</strong> – Anggota Aktif</li>
+            <li><strong>Panitia Class Meeting</strong> – Divisi Acara</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Karya / Project</h2>
+        <ul>
+            <li>💻 Website sederhana menggunakan HTML & CSS</li>
+            <li>🎬 Video editing kegiatan sekolah</li>
+            <li>🖌️ Desain poster digital menggunakan Canva</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Skill / Keahlian</h2>
+        <div class="skills">
+            <span>HTML Dasar</span>
+            <span>Microsoft Office</span>
+            <span>Canva</span>
+            <span>Public Speaking</span>
+            <span>Kerja Tim</span>
+            <span>Manajemen Waktu</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Sertifikat & Pelatihan</h2>
+        <ul>
+            <li>📜 Seminar Motivasi Pelajar</li>
+            <li>📜 Workshop Desain Grafis Dasar</li>
+            <li>📜 Pelatihan Kepemimpinan Siswa</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Nama Kamu | Email: emailkamu@email.com
+</footer>
+
 </body>
 </html>
